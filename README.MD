@@ -15,6 +15,8 @@ Being in root folder of the project it is possible to run tests using:
 --------------------------------------------------------------------------------------------------------------
 npx nightwatch --env cucumber-js --tags "@NameOfTag"  [--format html:report/cucumber_report.html]
 --------------------------------------------------------------------------------------------------------------
+
+
 [--tags]: can focus tests from the test suite
 [--format]: can create html reports to the folder report with name cucumber_report.html in case it is being used [--format html:report/cucumber_report.html]
           can create json reports to the folder report changing html for json
