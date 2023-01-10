@@ -7,16 +7,25 @@ It is designed to allow previous code to be reused in each subsequent step, opti
 :bulb: To use it, you must first clone the repository and install the node modules.
 
 
+
+
 --------------------------------------------------------------------------------------------------------------
 npm install
 ---------------------------------------------------------------------------------------------------------------
 
 
+
+
 :dart: Being in root folder of the project it is possible to run tests using:
+
+
+
 
 --------------------------------------------------------------------------------------------------------------
 npx nightwatch --env cucumber-js --tags "@NameOfTag"  [--format html:report/cucumber_report.html]
 --------------------------------------------------------------------------------------------------------------
+
+
 
 
 [--tags]: focuses tests from the test suite
