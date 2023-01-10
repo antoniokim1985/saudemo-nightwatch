@@ -19,8 +19,10 @@ npx nightwatch --env cucumber-js --tags "@NameOfTag"  [--format html:report/cucu
 --------------------------------------------------------------------------------------------------------------
 
 
-[--tags]: can focus tests from the test suite
-[--format]: can create html reports to the :file_folder: report with name cucumber_report.html in case it is being used [--format html:report/cucumber_report.html]
+[--tags]: focus tests from the test suite
+
+
+[--format]: creates html reports to the :file_folder: report with name cucumber_report.html in case it is being used [--format html:report/cucumber_report.html]
           can create json reports to the :file_folder: report changing html for json
 
 
